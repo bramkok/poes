@@ -1,0 +1,22 @@
+{
+  "name": "poes",
+  "version": "1.0.0",
+  "description": "Read a file to **stdout** similar to `cat` in Unix",
+  "license": "MIT",
+  "repository": "bramkok/poes",
+  "author": {
+    "name": "Bram Kok",
+    "url": "bramkok.com"
+  },
+  "bin": {
+    "poes": "cli.js"
+  },
+  "keywords": ["cli-app", "cli", "cat", "unix", "stdout"],
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  }
+}
